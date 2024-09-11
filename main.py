@@ -30,7 +30,6 @@ while True:
     match option:
         case '1':
             operations.add_contact(contact_list)
-            print("contato adicionado com sucesso!")
         case '2':
             operations.view_contact_list(contact_list)
         case '3':
