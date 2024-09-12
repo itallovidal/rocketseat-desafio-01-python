@@ -35,9 +35,9 @@ class Contact:
             if len(name) > 2:
                 return True
 
-            email = input("Nome inválido, digite um nome com mais de 2 caracteres, ou digite 1 para desistir.")
+            name = input("Nome inválido, digite um nome com mais de 2 caracteres, ou digite 1 para desistir.")
 
-            if email == "1":
+            if name == "1":
                 return False
 
     def change_email(self, new_email) -> Tuple[bool, str]:
