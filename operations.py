@@ -56,7 +56,8 @@ class Contact:
         self.__is_favorite = not self.__is_favorite
 
     def info(self):
-        return f"{"🤍" if self.__is_favorite else ""}  {self.__name} - {self.__phone_number} - {self.__email}"
+        status = "🤍" if self.__is_favorite else ""
+        return f"{status} -  {self.__name} - {self.__phone_number} - {self.__email}"
 
 
 def add_contact(contact_list: list):
